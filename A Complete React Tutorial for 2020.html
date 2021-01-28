@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://daveceddia.com/react-getting-started-tutorial/ -->
+<html class="no-js" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>A Complete React Tutorial for 2020</title>
+<meta name="description" content="Learn React from the ground up with this tutorial for beginners, perfect for getting started with React.">
+<meta name="keywords" content="react">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="A Complete React Tutorial for 2020">
+<meta name="twitter:description" content="Learn React from the ground up with this tutorial for beginners, perfect for getting started with React.">
+<meta name="twitter:site" content="@dceddia">
+<meta name="twitter:creator" content="@dceddia">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://daveceddia.com/images/complete-react-tutorial-2020.png">
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A Complete React Tutorial for 2020">
+<meta property="og:description" content="Learn React from the ground up with this tutorial for beginners, perfect for getting started with React.">
+
+<meta property="og:image" content="https://daveceddia.com/images/complete-react-tutorial-2020.png">
+
+<meta property="og:url" content="https://daveceddia.com/react-getting-started-tutorial/">
+<meta property="og:site_name" content="Dave Ceddia">
+
+
+
+
+
+
+<link href="./A Complete React Tutorial for 2020_files/css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link rel="canonical" href="https://daveceddia.com/react-getting-started-tutorial/">
+<link href="https://daveceddia.com/feed.xml" type="application/atom+xml" rel="alternate" title="Dave Ceddia Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="fb:admins" content="50205984">
+
+<meta property="dc:page_id" content="react-tutorial">
+
+<!-- For all browsers -->
+<link rel="stylesheet" type="text/css" href="./A Complete React Tutorial for 2020_files/site.min.css">
+
+<!-- Preload the CSS and fonts for Commento if we have comments -->
+
+  <link rel="preload" href="./A Complete React Tutorial for 2020_files/commento.css" as="style">
+  <link rel="preload" href="https://commento.daveceddia.com/fonts/source-sans-400-latin.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="https://commento.daveceddia.com/fonts/source-sans-700-latin.woff2" as="font" type="font/woff2" crossorigin="">
+
+
+
+
+
+
+
+<!-- Webfonts -->
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="https://daveceddia.com/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="https://daveceddia.com/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="https://daveceddia.com/favicon.ico?v=2">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="https://daveceddia.com/favicon.png?v=2">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="https://daveceddia.com/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://daveceddia.com/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://daveceddia.com/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://daveceddia.com/images/apple-touch-icon-144x144-precomposed.png">
+
+<script type="text/javascript" async="" src="./A Complete React Tutorial for 2020_files/linkid.js.download"></script><script async="" src="./A Complete React Tutorial for 2020_files/analytics.js.download"></script><script type="text/javascript" async="" src="./A Complete React Tutorial for 2020_files/js"></script><link type="text/css" href="./A Complete React Tutorial for 2020_files/commento.css" rel="stylesheet"></head>
+
+<body id="post">
+
+<nav role="navigation" id="site-nav">
+	<header>
+    
+		<a href="https://daveceddia.com/" class="site-logo" rel="home" title="Dave Ceddia">
+      <img src="./A Complete React Tutorial for 2020_files/logo.png" srcset="https://daveceddia.com/images/logo@2x.png 2x" alt="Dave Ceddia logo">
+		</a>
+    
+    <h2 class="site-title"><a href="https://daveceddia.com/">Dave Ceddia</a></h2>
+		<h3 class="site-description" itemprop="description">Articles to help you learn and master frontend development with React.</h3>
+	</header>
+  <ul>
+  
+    
+    <li>
+    	<a href="https://daveceddia.com/courses/">Courses</a>
+    </li>
+  
+    
+    <li>
+    	<a href="https://daveceddia.com/archives/">All Posts</a>
+    </li>
+  
+    
+    <li>
+    	<a href="https://daveceddia.com/about/">About</a>
+    </li>
+  
+  </ul>
+</nav>
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"><a href="https://daveceddia.com/tags/#react" title="Pages tagged react">react</a></span>
+        
+          <h1 class="entry-title">A Complete React Tutorial for 2020</h1>
+        
+      </header>
+      <footer class="entry-meta muted-centered" style="color: #3b5e82;">
+        
+        <span class="author vcard">By <span class="fn">Dave Ceddia</span></span>
+        
+          
+            <span class="entry-date date published"><time datetime="2020-01-15T19:00:14+00:00"><i class="fa fa-calendar-o"></i> January 15, 2020</time></span>
+          
+        
+        
+      </footer>
+      <div class="entry-content">
+        <p><img src="./A Complete React Tutorial for 2020_files/complete-react-tutorial-2020.png" srcset="https://daveceddia.com/images/complete-react-tutorial-2020@2x.png 2x" alt=""></p>
+
+<p>Learning React is tough. It seems there’s a lot to learn at once. You might even
+think that “learning React” means that you have to <em>also</em> learn about
+Redux, Webpack, React Router, CSS in JS, and a pile of other stuff.</p>
+
+<p>This article is designed for total beginners to React, as well as folks
+who’ve tried to learn in the past but have had a tough time. I think I
+can help you figure this out.</p>
+
+<p>Here’s what we’ll cover:</p>
+
+<ol>
+  <li>What React is and why it’s worth learning</li>
+  <li>How to get something on the page with components and JSX</li>
+  <li>Passing data to components with props</li>
+  <li>Making things interactive with state and hooks</li>
+  <li>Calling an API with useEffect</li>
+  <li>Deploying a standalone React app</li>
+</ol>
+
+<p>Quick warning though: this tutorial is <em>compleeete</em>. And by that I mean <em>looong</em>. I turned this into a full-fledged free 5-day course, and I made a nice-looking PDF you can read on your iPad or [whatever Android device is cool these days]. Drop your email in the box to get both. (it’s spread over 5 days, but you can jump ahead whenever you want).</p>
+
+<div>
+  <div class="dc_form_container react-tutorial">
+    <div class="dc_success_msg" style="display:none;">
+      Success! Now check your email.
+    </div>
+
+    <!--  Form starts here  -->
+    
+    <form class="dc_signup_form" action="https://daveceddia.com/s/signup" method="POST">
+    
+      <h4 class="dc_title">
+</h4>
+      <div class="dc_description">
+        
+  <p>This tutorial is 38 pages of awesome. Take it as a course 👇 </p>
+
+      </div>
+
+      <div class="dc_error_msg" style="display:none">
+        There was an error submitting your subscription. Please try again.
+      </div>
+
+      <div class="dc_field">
+        <label class="dc_label" for="dc_email" style="display: none">Email Address</label>
+        <input type="email" name="email" placeholder="Your email address" required="">
+      </div>
+      <input type="hidden" name="page_id" value="react-tutorial">
+      <input type="hidden" name="form_id" value="react-tutorial-course">
+      <input type="hidden" name="form_version" value="1">
+      <input type="hidden" name="tag" value="1263059,">
+      <button class="dc_subscribe_button" type="submit">
+        Get the Course + PDF
+      </button>
+      <div class="dc_guarantee">
+        A self-paced 5-day email course. Unsubscribe any time.
+      </div>
+    </form>
+
+    
+<form class="dc_gdpr_form" action="https://daveceddia.com/s/signup/gdpr" method="POST" style="display:none;">
+
+  <p>Before we go on, I have to ask...</p>
+  <div class="dc_form_field">
+    <label>
+      <input type="checkbox" name="confirm_answer" value="true">
+      <span>consent</span>
+    </label>
+  </div>
+  <br>
+
+  <div class="dc_error_msg" style="display:none">
+    There was an error submitting your subscription. Please try again.
+  </div>
+
+  <input type="hidden" name="email" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="firstName" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="gdpr" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="captcha" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="sign" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="confirm" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="tag" value="1263059">
+  <input type="hidden" name="page_id" value="react-tutorial">
+  <input type="hidden" name="form_id" value="react-tutorial-course">
+  <input type="hidden" name="form_version" value="1">
+  <button type="submit" class="dc_subscribe_button">
+    Finish
+  </button>
+</form>
+
+  </div>
+
+  <style type="text/css">
+    .dc_form_container {
+      border-top: 4px solid #3166de;
+      border-bottom: 4px solid #3166de;
+      padding: 1em;
+      background: #f8faff;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 2.5rem;
+    }
+    .dc_form_container .dc_title {
+      margin-top: 0;
+      text-align: center;
+      font-weight: 400;
+      font-size: 30px;
+    }
+    .dc_form_container .dc_description {
+      margin-bottom: 10px;
+    }
+    .dc_signup_form, .dc_gdpr_form {
+      margin-bottom: 0;
+      position: relative;
+    }
+    .dc_signup_form input, .dc_gdpr_form input {
+      width: 100%;
+      padding: 20px 12px;
+    }
+    .dc_gdpr_form input[type="checkbox"] {
+      width: initial;
+      margin: 0;
+      margin-right: 5px;
+    }
+    .dc_subscribe_button {
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+      max-width: 250px;
+      font-size: 18px;
+      background: orange;
+      color: #583900;
+      border-color: #e29609;
+      height: auto;
+      margin-bottom: 5px;
+    }
+    .dc_subscribe_button[disabled] {
+      opacity: 0.5;
+    }
+    .dc_subscribe_button[disabled]:hover {
+      opacity: 0.5;
+      color: #583900;
+    }
+    .dc_guarantee {
+      font-size: 12px;
+      text-align: center;
+      opacity: 0.7;
+    }
+    .dc_success_msg {
+      padding: 10px;
+      background: #fff;
+      border: 1px solid #8dc74a;
+      border-radius: 2px;
+      background: #F1F8E9;
+      text-align: center;
+    }
+    .dc_error_msg {
+      background: #FFEBEE;
+      padding: 10px;
+      margin-bottom: 5px;
+      border: 2px solid #C62828;
+    }
+  </style>
+</div>
+
+<style>
+.dc_form_container.react-tutorial {
+  border-left: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
+  background: #f9fbff;
+  padding: 5%;
+}
+.react-tutorial .dc_subscribe_button {
+  background: #0071e6;
+  color: #fff;
+  border: none;
+  max-width: 100%;
+}
+.react-tutorial .dc_subscribe_button:hover {
+  border: none;
+}
+.react-tutorial h3 { display: none; }
+</style>
+
+<p>I want to clarify what <em>I</em> mean when I talk about learning React: <strong>just
+vanilla React</strong>. All by itself. That’s what we’re going to cover here.</p>
+
+<p><em>“Wait… is that even useful tho?”</em></p>
+
+<p>Absolutely it is. You can build quite a bit with plain old React and the
+tools it gives you: just JSX, props, state, and passing some data
+around.</p>
+
+<p>Here’s a little Slack clone I put together using pure vanilla React (and some
+fake data to make it not look like a barren wasteland):</p>
+
+<p><img src="./A Complete React Tutorial for 2020_files/react-slack.gif" alt="a Slack clone built with vanilla React"></p>
+
+<p>Neat, huh?</p>
+
+<p><em>“But won’t I eventually need Redux and stuff for Real Apps? Fake data
+isn’t gonna cut it.”</em></p>
+
+<p>I hear you. And I’m not gonna lie: you’ll probably want to learn all
+that other stuff eventually. But that’s <em>eventually</em>. Don’t worry
+about building your masterpiece right now. Just worry about getting some
+paint on the canvas. Even if it’s just 2 colors, you’ll be <em>creating
+something</em> – which is way more fun than learning “prerequisites”
+before doing anything fun.</p>
+
+<p>Think back to learning to ride a bike as a kid. Did you bike along a
+busy highway into town on your first day? Did anyone hand you some
+bowling pins and say, “Here, learn to juggle at the same time. That’s
+what the pros at the circus do!”</p>
+
+<p>No, you just focused on not falling over. And you probably had training
+wheels.</p>
+
+<h2 id="tiny-wins-propel-you-forward">Tiny Wins Propel You Forward</h2>
+
+<p>If you can get to the fun stuff quickly, even if it’s just a <em>tiny</em>
+amount of fun, it’s a lot easier to keep going. So that’s what we’ll
+do here.</p>
+
+<p>We’re going to get you some <strong>tiny wins</strong> with a few little projects, and get you through the basics of React.</p>
+
+<p>And when I say you’ll <em>eventually</em> get to <a href="https://daveceddia.com/redux-tutorial/">Redux</a> and that other stuff:
+I’m not talking <em>months</em> in the future (aka never). Whenever you
+understand enough React to feel like “ok, I think I got this,” you’re
+ready for more. If you’ve already got some programming experience,
+that’s probably a matter of days or weeks. If you’re starting fresh,
+it might take a bit longer.</p>
+
+<h2 id="what-is-react">What is React?</h2>
+
+<p>React is a UI library created by Facebook. It helps you create interactive web applications made up of <strong>components</strong>. If you’re familiar with HTML, you can think of components as fancy custom tags. That’s pretty much what they are: reusable bits of content and behavior that can be put on a web page.</p>
+
+<p>A <strong>component</strong> is written as a plain JavaScript function. And this is real JavaScript here, not a template language. React supports a special syntax called JSX, which looks a lot like HTML, but it is turned into real JavaScript code by a compiler.</p>
+
+<p>A web page is made up of components laid out in a nested “tree” structure. Just like HTML elements can contain other elements, React components can contain other components (and native elements like <code>div</code>s and <code>button</code>s). But these components are functions, remember, and they can be passed data to display.</p>
+
+<p>One of the defining features of React is the idea of <strong>one-way data flow</strong>, and this was a big part of what set React apart when it first came out in 2013. These days, lots of other libraries (like Vue, Svelte, and Angular) have adopted the one-way data flow pattern too.</p>
+
+<p>In the one-way data flow model, data is only ever passed <em>down</em> the tree, from a component to its children. Just like a waterfall: only down, not up or sideways. Unlike in some other approaches (like jQuery) where data might’ve been globally available and you could “plug it in” anywhere on the page, React is more explicit and more restrictive. With React you’d pass that data into the top-level component, and that one would pass it down, and so on.</p>
+
+<p>React is a great way of building interactive UIs, and it’s very popular right now (and has been for a few years). If you are looking to get into a career as a front end developer, React is an excellent library to learn. React developers are in high demand.</p>
+
+<p>It’s not the only way to build UIs though! Plenty of other libraries exist. <a href="https://vuejs.org/">Vue.js</a> and <a href="https://angular.io/">Angular</a> are the most popular alternatives, and <a href="https://svelte.dev/">Svelte</a> is gaining steam. And, even now in 2020, you can still build static pages with plain HTML and CSS, and dynamic pages with plain JavaScript.</p>
+
+<h2 id="what-should-you-know-before-learning-react">What Should You Know Before Learning React?</h2>
+
+<p>Learning “prerequisites” is boring, but React builds upon ideas from HTML and JavaScript. While I don’t think it’s important to run off and master HTML and JS for months before getting into React, it’ll be a big help to have some experience with them first.</p>
+
+<p>React is a library on top of JS, and unlike a lot of other libraries that are just a set of functions, React has its own “JSX” syntax that gets mixed in. Without a solid grasp of JS syntax, it can be hard to tell which parts of code are “React things” and which are Just JavaScript. Ultimately it turns into a jumbled mess in your head, and it’s harder to know what to Google. React will be much easier if you learn plain JavaScript first.</p>
+
+<p>And, since JSX is heavily inspired by HTML (with the you-must-close-every-tag strictness of XML), it’ll be a big help to understand HTML.</p>
+
+<p>React has no “preferred” way to do styling. Regular CSS works great (you’ll see how to use it later in this post!), and there are a bunch of CSS-in-JS libraries if you want to go that route (<a href="https://styled-components.com/">styled-components</a> is probably the most popular). Either way, you need to understand <a href="https://daveceddia.com//implement-a-design-with-css/">how CSS works</a> to effectively style pages.</p>
+
+<p>An awful lot of “how to do X in React” questions are actually JavaScript or HTML or CSS questions, but you can’t know where those lines are without understanding the other tech too.</p>
+
+<p>This tutorial will walk you through the basics of React, and I think you’ll be able to get something out of it even if you’re not too familiar with JS, HTML, and CSS.</p>
+
+<h2 id="hello-world">Hello World!</h2>
+
+<p>Let’s get “Hello World” on the screen and then we’ll talk about what the code is doing.</p>
+
+<ol>
+  <li>Start up a blank project on CodeSandbox: <a href="https://codesandbox.io/s/new">go here</a></li>
+  <li>The project will have <code>App.js</code> open. Close that, we don’t need it. You can even delete it.</li>
+  <li>Select <code>index.js</code> from the left pane.</li>
+  <li>Hold your breath and delete the entire contents of the <code>index.js</code> file.</li>
+  <li>Type in this code:</li>
+</ol>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">React</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'react'</span><span style="color: #C9CDD7">;</span>
+<span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">ReactDOM</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'react-dom'</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello World!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span>
+
+<span style="color: #93DDFD">ReactDOM</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">render</span><span style="color: #9CA5B7">(</span><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Hi</span><span style="color: #8AD2F0">/&gt;</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">document</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">querySelector</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">'#root'</span><span style="color: #9CA5B7">))</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>Now, before we move on.</p>
+
+<p>Did you copy-paste the code above? Or did you type it in?</p>
+
+<p>Cuz it’s important to actually <em>type this stuff in</em>. Typing it drills the concepts and the syntax into your brain. If you just copy-paste (or read and nod along, or watch videos and nod along), the knowledge won’t stick, and you’ll be stuck staring at a blank screen like “how does that <code>import</code> thing work again?? how do I start a React component??”</p>
+
+<p>Typing in the examples and doing the exercises is the “one weird trick” to learning React. It trains your fingers. Those fingers are gonna understand React one day. Help ‘em out ;)</p>
+
+<p>Alright, let’s talk about how this code works.</p>
+
+<h3 id="imports">Imports</h3>
+
+<p>At the top, there are 2 import statements. These pull in the ‘react’ and ‘react-dom’ libraries.</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">React</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'react'</span><span style="color: #C9CDD7">;</span>
+<span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">ReactDOM</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'react-dom'</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>With modern ES6 JavaScript (which is most React code you’ll see), libraries aren’t globally available; they need to be imported.</p>
+
+<p>This is a change if you’re used to script tags and the days of jQuery, and at first it might seem like a pain. But explicitly importing things has a really nice side effect: as you read through the code, you can always tell where a variable/class/object comes from.</p>
+
+<p>For instance: See the <code>ReactDOM.render</code> at the bottom of the example? Instead of reading that and going “what the heck is ReactDOM, where does that come from?” you can look up top and see that it’s imported from the ‘react-dom’ library. Nifty.</p>
+
+<p>It’s pretty obvious where a thing comes from when the file is tiny, but explicit imports are excellent when you’re working in larger files or ones that you didn’t author.</p>
+
+<h3 id="the-hi-component">The ‘Hi’ Component</h3>
+
+<p>Right under the imports is a function called <code>Hi</code>. This is really truly just a plain JS function. In fact, everything in this file up to and including the word “return” is plain JS syntax, nothing React-specific.</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello World!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>What makes this function a <em>component</em> is the fact that it returns something that React can render. The <code>&lt;div&gt;Hello World!&lt;/div&gt;</code> is a syntax called <em>JSX</em>, and it looks and works a lot like HTML. React calls the function, gets the JSX, and renders the equivalent HTML to the DOM.</p>
+
+<p>Notice how the JSX is <em>not</em> a string. It’s not <code>return "&lt;div&gt;Hello World&lt;/div&gt;";</code>. React isn’t turning these things directly into strings, either.</p>
+
+<p>Before React runs, there’s an extra step the code goes through that converts the JSX into function calls. <code>&lt;div&gt;Hello World!&lt;/div&gt;</code> becomes <code>React.createElement('div', null, 'Hello World!')</code>.</p>
+
+<p>This all happens behind the scenes. Babel is the tool that does the transformation, and in the stock Create React App config, Webpack is what kicks off Babel).</p>
+
+<p>The fact that it’s not a string might seem like an unimportant detail, but it’s actually pretty cool: you can insert bits of JS code inside the JSX tags, and React will run them dynamically. We’ll see that in a minute.</p>
+
+<p>But how does React know <em>where</em> in the DOM to put this div on the page?</p>
+
+<h3 id="rendering">Rendering</h3>
+
+<p>The last line is what makes it all work. It instructs React to call the <code>Hi</code> function, gets the returned JSX, and inserts the corresponding HTML elements into the document under the element with id “root”. <code>document.querySelector("#root")</code> works similar to jQuery’s <code>$("root")</code>, finding and returning that element from the document.</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #93DDFD">ReactDOM</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">render</span><span style="color: #9CA5B7">(</span><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Hi</span><span style="color: #8AD2F0">/&gt;</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">document</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">querySelector</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">'#root'</span><span style="color: #9CA5B7">))</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>Babel will compile this down to code that looks like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #93DDFD">ReactDOM</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">render</span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">  </span><span style="color: #93DDFD">React</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">createElement</span><span style="color: #9CA5B7">(</span><span style="color: #D1D5DE">Hi</span><span style="color: #9CA5B7">)</span><span style="color: #D1D5DE">,</span>
+<span style="color: #C9CDD7">  </span><span style="color: #93DDFD">document</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">querySelector</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">'#root'</span><span style="color: #9CA5B7">)</span>
+<span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>I wanted to show you this for two important reasons:</p>
+
+<ol>
+  <li><strong>This code is pure JavaScript.</strong> At the end of the day, the fancy JSX syntax turns into regular JS. You might’ve seen people refer to React as “just JavaScript” before: this is what they mean. Outside of the JSX syntax, there’s not much “React specific” code in React apps. This is great because it means there’s <em>no magic</em>. Learning React is more about learning new ways to solve problems than it is about syntax.</li>
+  <li><strong>You don’t call your own components; React does</strong>. Notice how we’re passing the <code>Hi</code> function itself (aka a reference to that function) into <code>React.createElement</code>. We’re not <em>calling</em> <code>Hi()</code>, we’re just passing it. This is a subtle thing but important to keep in mind: <em>React</em> is responsible for calling your component function. It’ll do that at render time – in other words, somewhere in the depths of the <code>ReactDOM.render</code> function, and not inside <code>React.createElement</code>.</li>
+</ol>
+
+<p>This idea that React is responsible for calling your components means that it is able to run some setup/teardown code before and after. You’ll see why that matters when we talk about Hooks in a bit.</p>
+
+<h3 id="your-turn">Your Turn!</h3>
+
+<p>Now that you have a project in place, you can play around :)</p>
+
+<p>Make sure to actually <em>try</em> these exercises. Even if they seem really simple. Even if you are 99% sure you know how to do it, prove it to yourself by typing it out and seeing the working result.</p>
+
+<ul>
+  <li>Change the text “Hello World!” to say “Hello &lt;your name&gt;!”</li>
+  <li>Bold your name by wrapping it in a <code>&lt;strong&gt;</code> tag. It works just like HTML.</li>
+  <li>Inside the <code>&lt;div&gt;</code>, and under your name, add some other HTML elements. Headings, ordered and unordered lists, etc. Get a feel for how it works. How does it handle whitespace? What happens if you forget to close a tag?</li>
+  <li>I mentioned that you can put real JS code inside the JSX. Try that out: inside the div, insert a JS expression surrounded with single braces, like <code>{5 + 10}</code>.</li>
+  <li>Want to style it with CSS? Instead of using the “class” property like you would in HTML, use “className”. Then create a file <code>src/index.css</code> with the styles, and add the line <code>import './index.css'</code> to the top of index.js. Yep, you can import CSS into JS. Sorta. That’s Webpack working its magic behind the scenes.</li>
+</ul>
+
+<p>At this stage, if you already know some HTML and <a href="https://daveceddia.com/implement-a-design-with-css/">some CSS</a>, you know enough about React to replicate basically any static website! 🎉</p>
+
+<p>Cram all the HTML into a single component, import a CSS file, style it up, and hey – you’re making web pages like it’s 1995. Not too shabby for your first day!</p>
+
+<p>Play around with it and see what you can come up with. Leave a comment with a link to your project if you make something cool :)</p>
+
+<p>Learning in bite-size chunks like this is <em>way</em> more effective at making the knowledge stick (versus learning <em>everything</em> and trying to remember it all)</p>
+
+<p>Read a bit, then write some code to practice. Do this enough times, and you can master React pretty painlessly.</p>
+
+<p>Next, we’ll talk about how to display dynamic data with React components.</p>
+
+<h2 id="dynamic-and-reusable-components">Dynamic and Reusable Components</h2>
+
+<p>Let’s take the next step and learn how to make your React components dynamic and reusable.</p>
+
+<p>Before we talk about how to do this in React, though, let’s look at how to do this with <em>plain JavaScript</em>. This might seem a bit basic but bear with me. Let’s say you have this function:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">greet</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"Hi Dave"</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>You can see pretty plainly that it will always return <em>“Hi Dave”</em>.</p>
+
+<p>And if you wanted to greet someone else? You’d pass in their name as an <em>argument</em>:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">greet</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">name</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"Hi "</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">+</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">name</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>Now you can greet anyone you want just by calling <code>greet</code> with their name! Awesome. (I warned you this part was basic)</p>
+
+<h3 id="using-props-as-arguments-to-a-react-component">Using Props as Arguments to a React Component</h3>
+
+<p>If you want to customize a React component in the same way, the principle is the same: pass an argument with your dynamic stuff, and then the component can do what it wants with that stuff.</p>
+
+<p>Let’s change the <code>Hi</code> component from earlier to be able to say hi to whoever we want. If you still have the CodeSandbox tab open, great – if not, start with <a href="https://codesandbox.io/s/q9ljnk8n76">this one</a>, and code along. Here’s the original component:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello World!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>Add a parameter called <code>props</code>, and replace World with <code>{props.name}</code>:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">props</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello </span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">props</span><span style="color: #D1D5DE">.name</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<!--
+## -- Pop Quiz: Which parts are "React" and which are just JavaScript?
+
+* the whole snippet is React
+* the whole snippet is plain JS
+* Plain JS up to return, the rest is React
+* props.name is plain JS; only the <div> is React
+
+answer: D
+-->
+
+<p>What’s going on here? Well, at first, it just renders “Hello “ because we’re not passing a name yet. But aside from that…</p>
+
+<p>When React renders a component, it passes the component’s <em>props</em> (short for “properties”) as the first argument, as an object. The props object is just a plain JS object, where the keys are prop names and the values are, well, the values of those props.</p>
+
+<p>You might then wonder, where do props come from? How do we pass them in? Good question.</p>
+
+<h3 id="pass-props-to-a-component">Pass Props to a Component</h3>
+
+<p>You, the developer, get to pass props to a component when it is rendered. And, in this app, we’re rendering the <code>Hi</code> component in the last line:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #93DDFD">ReactDOM</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">render</span><span style="color: #9CA5B7">(</span><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Hi</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">/&gt;</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">document</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">querySelector</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">'#root'</span><span style="color: #9CA5B7">))</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>We need to pass a prop called “name” with the name of the person we want to greet, like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #93DDFD">ReactDOM</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">render</span><span style="color: #9CA5B7">(</span><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Hi</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">name</span><span style="color: #93DDFD">=</span><span style="color: #F5D66B">"Dave"</span><span style="color: #8AD2F0">/&gt;</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">document</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">querySelector</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">'#root'</span><span style="color: #9CA5B7">))</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>With that change in place, the app now displays “Hello Dave!” Awesome!</p>
+
+<p>Passing props is very similar to setting attributes on an HTML tag. A lot of JSX syntax is borrowed from HTML.</p>
+
+<p>Here’s a cool thing about props: you can pass whatever you want into them. You’re not restricted to strings, or trying to guess what it will do with your string (<em>cough</em> Angular1). Remember earlier, and 30 seconds ago, how we put a JS expression inside single braces? Well, you can do the same thing with a prop’s value:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">CustomButton</span>
+<span style="color: #C9CDD7">  </span><span style="color: #AFF19F">green</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #76DCE8">true</span><span style="color: #FFE78F">}</span>
+<span style="color: #C9CDD7">  </span><span style="color: #AFF19F">width</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #D570F3">64</span><span style="color: #FFE78F">}</span>
+<span style="color: #C9CDD7">  </span><span style="color: #AFF19F">options</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #9CA5B7">{</span><span style="color: #C9CDD7"> awesome</span><span style="color: #D1D5DE">:</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"yes"</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> disabled</span><span style="color: #D1D5DE">:</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"no"</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">}</span><span style="color: #FFE78F">}</span>
+<span style="color: #C9CDD7">  </span><span style="color: #AFF19F">onClick</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">doStuffFunc</span><span style="color: #FFE78F">}</span>
+<span style="color: #8AD2F0">/&gt;</span></code></pre>
+</div>
+<p>You can pass booleans, numbers, strings (as we saw), functions, and even objects. The object syntax looks a little weird (“what?? why are there double braces??”), but think of it as single braces surrounding an <code>{object: "literal"}</code>, and you’ll be alright.</p>
+
+<h3 id="not-everything-is-a-string">Not Everything is a String</h3>
+
+<p>This is important to note: don’t pass every prop as a string surrounded by quotes. Sometimes that’s what you want, but not always. Be intentional about what type you’re passing in, because it will come out as the same type!</p>
+
+<p>For instance, one of these passes the string “false” while the other passes the boolean value <code>false</code>:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Sidebar</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">hidden</span><span style="color: #93DDFD">=</span><span style="color: #F5D66B">"false"</span><span style="color: #8AD2F0">/&gt;</span>
+<span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Sidebar</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">hidden</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #76DCE8">false</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">/&gt;</span></code></pre>
+</div>
+<p>These will have very different effects, since the <em>string</em> “false” will be interpreted as truthy – probably not what you want here.</p>
+
+<p>This is a difference from HTML (where everything is a string) and some other frameworks like Angular and Svelte that will convert the string into a native JS value. React doesn’t parse props at all – they get passed through untouched, just like function arguments.</p>
+
+<h3 id="receiving-props">Receiving Props</h3>
+
+<p>Inside a component that receives multiple props, each one will be a separate property on the “props” object that’s passed in. For example if we had a component called “HiFullName” that took two props, like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">HiFullName</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">firstName</span><span style="color: #93DDFD">=</span><span style="color: #F5D66B">"Dave"</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">lastName</span><span style="color: #93DDFD">=</span><span style="color: #F5D66B">"Ceddia"</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">/&gt;</span></code></pre>
+</div>
+<p>Then the internals of that component might look something like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">HiFullName</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">props</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hi </span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">props</span><span style="color: #D1D5DE">.firstName</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7"> </span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">props</span><span style="color: #D1D5DE">.lastName</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>All of that syntax, by the way, is React (specifically, JSX). It’s not ES6 JavaScript. Which reminds me, I wanted to show you a couple bits of ES6 syntax that will make your components easier to write &amp; read.</p>
+
+<h5 id="a-few-bits-of-es6">A Few Bits of ES6</h5>
+
+<p>Most of the components you see in the wild will not take an argument called “props”. Instead, they use ES6’s <em>destructuring</em> syntax to pull the values out of the props object, which looks like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #9CA5B7">(</span><span style="color: #C9CDD7">{ </span><span style="color: #FDAC45">name</span><span style="color: #C9CDD7"> }</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">name</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>The only thing that changed here is that the argument <em>props</em> became this object-looking thing <code>{ name }</code>. This is JavaScript’s destructuring syntax (added in ES6), not a React thing.</p>
+
+<p>What that says is: “I expect the first argument will be an object. Please extract the ‘name’ property out of it, and give it to me as a variable called ‘name’.”</p>
+
+<p>This saves you from having to write <code>props.whatever</code> all over the place, and makes it clear, right up top, which props this component expects. Useful for documentation purposes.</p>
+
+<p>One more bit of ES6 syntax I want to show you, and then we’re done. (Not to overload you with syntax or anything, but you’ll probably see example code like this and I want you to be prepared for it.) This is <em>const</em> and the <em>arrow function</em>:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span><span style="color: #C9CDD7">{ </span><span style="color: #FDAC45">name</span><span style="color: #C9CDD7"> }</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">name</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>The <em>const</em> declares a constant, and the <em>arrow function</em> is everything after the first equal sign.</p>
+
+<p>Compare that code with the “function” version above. Can you see what happened? Here’s the transformation, one change at a time:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #6E778C">// Plain function:</span>
+<span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #9CA5B7">(</span><span style="color: #C9CDD7">{ </span><span style="color: #FDAC45">name</span><span style="color: #C9CDD7"> }</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">name</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span>
+
+<span style="color: #6E778C">// A constant holding an anonymous function:</span>
+<span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">function</span><span style="color: #9CA5B7">(</span><span style="color: #C9CDD7">{ </span><span style="color: #FDAC45">name</span><span style="color: #C9CDD7"> }</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">name</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span>
+
+<span style="color: #6E778C">// Turning the "function" into an arrow:</span>
+<span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span><span style="color: #C9CDD7">{ </span><span style="color: #FDAC45">name</span><span style="color: #C9CDD7"> }</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">name</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span>
+
+<span style="color: #6E778C">// Optional step 3: Removing the braces, which makes the</span>
+<span style="color: #6E778C">// "return" implicit so we can remove that too. Leaving the parens</span>
+<span style="color: #6E778C">// in for readability:</span>
+<span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span><span style="color: #C9CDD7">{ </span><span style="color: #FDAC45">name</span><span style="color: #C9CDD7"> }</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">name</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #9CA5B7">)</span>
+
+<span style="color: #6E778C">// Optional step 4: If the component is really short, you can put</span>
+<span style="color: #6E778C">// it all on one line, and skip the parentheses:</span>
+<span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Hi</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span><span style="color: #C9CDD7">{ </span><span style="color: #FDAC45">name</span><span style="color: #C9CDD7"> }</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Hello </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">name</span><span style="color: #FFE78F">}</span><span style="color: #C9CDD7">!</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<h5 id="your-turn-1">Your Turn</h5>
+
+<p>Now you know how to pass props into a component to make it both dynamic and reusable! Work through these exercises to try out a few new things with props. (Remember: it’s important to actually do the exercises!)</p>
+
+<ul>
+  <li>Write a new component called <code>MediaCard</code> that accepts 3 props: title, body, and imageUrl. Inside the component, render the title in an <code>&lt;h2&gt;</code> tag, the body in a <code>&lt;p&gt;</code> tag, and pass the imageUrl into an img tag like <code>&lt;img src={imageUrl}/&gt;</code>. Can you return all 3 of these things at once? Or do you need to wrap them in another element?</li>
+  <li>Render the MediaCard with the ReactDOM.render call, and pass in the necessary props. Can you pass a JSX element as a prop value? (hint: wrap it in single braces). Try bolding some parts of the body text without changing the implementation of MediaCard.</li>
+  <li>Make a component called Gate that accepts 1 prop called “isOpen”. When isOpen is true, make the component render “open”, and when isOpen is false, make it render “closed”. Hint: you can do conditional logic inside JSX with the ternary (question mark, ?) operator, inside single braces, like this: <code>{speed &gt; 80 ? "danger!" : "probably fine"}</code> (which evaluates to “danger!” if speed is over 80, and “probably fine” otherwise).</li>
+</ul>
+
+<p>Doing little exercises is an awesome way to reinforce new knowledge right away. It <em>makes you remember</em>.</p>
+
+<p>It’s very easy to keep on reading, feeling like it’s all crystal clear…</p>
+
+<p>And then when you go to write the code yourself… *<em>POOF</em>* the knowledge is gone.</p>
+
+<p>Make sure to spend some time practicing the stuff you learn!</p>
+
+<p>Next we’ll look at how to make your app interactive, with <em>state</em>.</p>
+
+<h2 id="using-state-in-react-components">Using State in React Components</h2>
+
+<p>No longer satisfied with merely saying “hello”, we are launching into exciting new uncharted waters: <em>turning the lights on and off</em>! 🎉 I know, it’s very exciting. I’m excited, anyway.</p>
+
+<p>So far we’ve…</p>
+
+<ul>
+  <li>written a tiny, friendly React app</li>
+  <li>customized that app to be able to greet literally anyone in the entire world</li>
+  <li>hopefully worked through some of the exercises I slaved over (just kidding!) (but seriously. do the exercises.)</li>
+  <li>learned that React isn’t so scary, but it’s also pretty static so far</li>
+</ul>
+
+<p>In this next section we’re going to break away from static pages by learning how to use <em>state</em>.</p>
+
+<p>Our project will be a page where the user can toggle the lights on and off by clicking a button. And by “the lights” I mean the background color (but hey, if you hook this up to an IoT thing in your house, I totally want to hear about it!).</p>
+
+<h3 id="create-a-new-project">Create a New Project</h3>
+
+<p>We’re gonna start with a brand new project. Go here: <a href="https://codesandbox.io/s/new">https://codesandbox.io/s/new</a>, erase the contents of index.js, and type this in:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">React</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'react'</span><span style="color: #C9CDD7">;</span>
+<span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">ReactDOM</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'react-dom'</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Room</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">className</span><span style="color: #93DDFD">=</span><span style="color: #F5D66B">"room"</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">the room is lit</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span>
+
+<span style="color: #93DDFD">ReactDOM</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">render</span><span style="color: #9CA5B7">(</span><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Room</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">/&gt;</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">document</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">getElementById</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">'root'</span><span style="color: #9CA5B7">))</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>This is nothing you haven’t seen before. Just a <code>Room</code> component rendering some JSX. But it’s awfully bright. Let’s turn those lights off.</p>
+
+<h3 id="make-the-component-stateful">Make the Component stateful</h3>
+
+<p>I don’t know if you know this about light switches, but they can be in one of two states: ON or OFF. Conveniently React has a feature called <strong>state</strong> which allows components to keep track of values that can change – a perfect place to store the state of our light.</p>
+
+<p>In order to add state to our <code>Room</code> component, we can either turn it into a <strong>class component</strong>, or add state directly to the function with <strong>hooks</strong>. We’ll call React’s <code>useState</code> hook to create a piece of state to hold the lightswitch value:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Room</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> [</span><span style="color: #93DDFD">isLit</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">setLit</span><span style="color: #C9CDD7">] </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">React</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">useState</span><span style="color: #9CA5B7">(</span><span style="color: #76DCE8">true</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">className</span><span style="color: #93DDFD">=</span><span style="color: #F5D66B">"room"</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">the room is lit</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>We’ve added the call to React.useState at the top, passing in the initial state of <strong>true</strong>. It returns an array with two entries - the first is the state value itself (so, <code>isLit</code> will be true) and the second is a function to change the state.</p>
+
+<p>We’re using the <em>array destructuring</em> syntax <code>[isLit, setLit]</code> to break out those two entries and give them names. This syntax is ES6 JavaScript, by the way – not React-specific. It’s exactly the same as if we’d written it out like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">state</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">React</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">useState</span><span style="color: #9CA5B7">(</span><span style="color: #76DCE8">true</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">isLit</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">state[</span><span style="color: #D570F3">0</span><span style="color: #D1D5DE">]</span><span style="color: #C9CDD7">;</span>
+<span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">setLit</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">state[</span><span style="color: #D570F3">1</span><span style="color: #D1D5DE">]</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>The destructuring syntax is just shorter.</p>
+
+<h3 id="you-can-also-import-usestate">You Can Also Import useState</h3>
+
+<p>Quick aside! You’ll often see useState imported directly from React like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">React,</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">useState</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">}</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'react'</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>After doing that, you can call <code>useState</code> directly (no need to qualify it with <code>React.useState</code>):</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> [</span><span style="color: #93DDFD">isLit</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">setLit</span><span style="color: #C9CDD7">] </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">useState</span><span style="color: #9CA5B7">(</span><span style="color: #76DCE8">true</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>Either way is fine, but it’s more common to import it. I did it the other way to show it works both ways, and to avoid interrupting the example by having you change the existing <code>import</code>, and now I’ve gone and added a whole section interrupting you about it. Anyway. Onward!</p>
+
+<h3 id="how-usestate-works">How useState Works</h3>
+
+<p>The way we’re using <code>React.useState</code> might look a bit weird.</p>
+
+<p>If you’ve been coding outside of React for any length of time, you likely know about variable scope: a variable declared at the top of a function will be wiped out, erased, forgotten as soon as that function returns.</p>
+
+<p>So… how is React able to remember the state in-between calls to the component?</p>
+
+<p>Before React calls your component, it sets up an array to keep track of which hooks get called. When you call <code>useState</code> in the component, React uses that array behind the scenes to keep track of its initial value, and the value as it changes over time.</p>
+
+<p>Remember I mentioned earlier that React is responsible for calling your component at render time? And that that means React can do some setup work beforehand? Keeping track of hooks is part of that work.</p>
+
+<p>Your component is the puppet and React is the puppeteer, pulling the strings behind the scenes to make it work.</p>
+
+<p>Read more about <a href="https://daveceddia.com/usestate-hook-examples/">how useState works here</a>.</p>
+
+<h3 id="render-based-on-state">Render Based on State</h3>
+
+<p>Right now, the component works the same as before, because we haven’t changed anything in the actual JSX that’s being rendered. Let’s have it render differently based on the state of the light. Change the <code>&lt;div&gt;</code> to this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">className</span><span style="color: #93DDFD">=</span><span style="color: #F5D66B">"room"</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  the room is </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">isLit</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">?</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'lit'</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">:</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'dark'</span><span style="color: #FFE78F">}</span>
+<span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span></code></pre>
+</div>
+<p>As you can see, the light is still on. Now change <code>React.useState(true)</code> to <code>React.useState(false)</code>. The app will re-render saying “the room is dark.”</p>
+
+<p>Ok so this isn’t very exciting yet… we’ve proved that we can change the display by changing the code 😄 But we’re getting there.</p>
+
+<h3 id="change-the-state-when-you-click-the-button">Change the state when you click the button</h3>
+
+<p>Let’s add a button and kick this thing into high gear. Change the div to look like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">className</span><span style="color: #93DDFD">=</span><span style="color: #F5D66B">"room"</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  the room is </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">isLit</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">?</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"lit"</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">:</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"dark"</span><span style="color: #FFE78F">}</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">br</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">/&gt;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">button</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">onClick</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">setLit</span><span style="color: #9CA5B7">(</span><span style="color: #FF8383">!</span><span style="color: #D1D5DE">isLit</span><span style="color: #9CA5B7">)</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">    flip</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">button</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span></code></pre>
+</div>
+<p>So we’ve got a plain old line break with the <code>&lt;br/&gt;</code>, and then a button that says “flip”. When you click the button, it will call its onClick prop.</p>
+
+<p>Remember how we talked about arrow functions earlier? This is one of those. It’s embedded right there, anonymously, and passed straight into onClick. That anonymous function calls setLit with a new value.</p>
+
+<p>FYI!! Be careful when you pass functions to props that you don’t inadvertently call the function at render time:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #C9CDD7">  </span><span style="color: #6E778C">// Wrapping with an arrow function</span>
+<span style="color: #C9CDD7">  </span><span style="color: #6E778C">// delays execution until the click</span>
+<span style="color: #C9CDD7">  </span><span style="color: #6E778C">// ✅</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">button</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">onClick</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">setLit</span><span style="color: #9CA5B7">(</span><span style="color: #FF8383">!</span><span style="color: #D1D5DE">isLit</span><span style="color: #9CA5B7">)</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">    flip</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">button</span><span style="color: #8AD2F0">&gt;</span>
+
+<span style="color: #C9CDD7">  </span><span style="color: #6E778C">// Unwrapped call to setLit will happen</span>
+<span style="color: #C9CDD7">  </span><span style="color: #6E778C">// before the button is even rendered!</span>
+<span style="color: #C9CDD7">  </span><span style="color: #6E778C">// 💥</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">button</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">onClick</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #AFF19F">setLit</span><span style="color: #9CA5B7">(</span><span style="color: #FF8383">!</span><span style="color: #D1D5DE">isLit</span><span style="color: #9CA5B7">)</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">    flip</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">button</span><span style="color: #8AD2F0">&gt;</span></code></pre>
+</div>
+<p>Click the “flip” button now. Does it work? Hooray! We’ll fix the stark white background in a sec, but let’s talk about this <code>setLit</code> function.</p>
+
+<h3 id="how-setlit-works">How setLit works</h3>
+
+<p>In the onClick function, we’re toggling the isLit state true/false depending on what it’s currently set to. You might wonder why we don’t just write <code>isLit = !isLit</code>. It’s because the setLit function actually has 2 jobs:</p>
+
+<ul>
+  <li>first it changes the state</li>
+  <li>then it re-renders the component</li>
+</ul>
+
+<p>If you just change the variable directly, React has no way of knowing that it changed, and it won’t re-render. Remember that isLit is a regular old variable – not a special React thing! It will go out of scope at the end of the function and any changes to it would be lost.</p>
+
+<p>So that’s why it’s important to call the setter, so that React can update the value of that hook’s state behind the scenes.</p>
+
+<p>Read my <a href="https://daveceddia.com/intro-to-hooks/">intro to Hooks</a> for more about what hooks are and how they work.</p>
+
+<p>We’re <em>alllmost</em> done here, but I promised that the background color would change, and it has not. Yet.</p>
+
+<h3 id="change-the-background-color">Change the background color</h3>
+
+<p>To do that we’re going to use some CSS.</p>
+
+<p>Not CSS-in-JS, not some special React CSS (not a thing), just <a href="https://daveceddia.com/implement-a-design-with-css/">plain old CSS</a>.</p>
+
+<p>In the CodeSandbox editor, hover over the “src” folder on the left and click the “New File” button.</p>
+
+<p><img src="./A Complete React Tutorial for 2020_files/content_create-new-file-in-codesandbox.png" alt="How to create a new file in CodeSandbox"></p>
+
+<p>Name it <code>index.css</code>, and paste this in. We don’t need TOO much style here, but we do need some.</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="css"><code><span style="color: #FF8383">html</span><span style="color: #C9CDD7">, </span><span style="color: #FF8383">body</span><span style="color: #C9CDD7">, </span><span style="color: #AFF19F">#root</span><span style="color: #C9CDD7">, </span><span style="color: #AFF19F">.room</span><span style="color: #C9CDD7"> {</span>
+<span style="color: #C9CDD7">  </span><span style="color: #D1D5DE">height:</span><span style="color: #C9CDD7"> </span><span style="color: #D570F3">100</span><span style="color: #FF8383">%</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #D1D5DE">margin:</span><span style="color: #C9CDD7"> </span><span style="color: #D570F3">0</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">}</span>
+<span style="color: #AFF19F">.lit</span><span style="color: #C9CDD7"> {</span>
+<span style="color: #C9CDD7">  </span><span style="color: #D1D5DE">background-color:</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">white</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #D1D5DE">color:</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">black</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">}</span>
+<span style="color: #AFF19F">.dark</span><span style="color: #C9CDD7"> {</span>
+<span style="color: #C9CDD7">  </span><span style="color: #D1D5DE">background-color:</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">black</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #D1D5DE">color:</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">white</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">}</span></code></pre>
+</div>
+<p>At the top, we are setting the height of absolutely-freaking-everything to 100%, so that the whole page goes dark instead of just the top 20 pixels. Then we have the class selectors <code>.lit</code> and <code>.dark</code>, which will set the background and text color when those CSS classes are applied.</p>
+
+<p>Now click over to index.js, and at the top of the file, import the CSS file like so:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"./index.css"</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>(We can do this because of Webpack: it will see this import and take it to mean “index.js depends on index.css” and will add the CSS to the page in the correct spot)</p>
+
+<p>Now all that’s left is to apply the “lit” and “dark” classes to the Room component. Remember how the <code>&lt;div&gt;</code> in <code>Room</code> has the prop <code>className="room"</code>? We need to change that dynamically to either <code>room lit</code> or <code>room dark</code>, depending on the state.</p>
+
+<p>At the top of our component, after state is created, we’ll create a variable for the lightedness:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">brightness</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">isLit</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">?</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"lit"</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">:</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"dark"</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>Then use that variable, plus ES6’s template strings, to change the className. Like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">className</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #F5D66B">`room </span><span style="color: #C678DD">${</span><span style="color: #D1D5DE">brightness</span><span style="color: #C678DD">}</span><span style="color: #F5D66B">`</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span></code></pre>
+</div>
+<p>The backticks signify a template string in ES6.</p>
+
+<p>Template strings allow you to insert variables within them, which is what the <code>${brightness}</code> is doing.</p>
+
+<p>And finally the whole string is surrounded by single braces because it’s an expression, and because React says so. I’m not sure why React allows you to just pass <code>someProp="string"</code> without the braces but requires the braces when it’s <code>someProp={`template string`}</code>, but it does, so don’t forget them.</p>
+
+<p>Click the button now, and you’ll see that the background color changes along with the text. Woohoo! 🎉</p>
+
+<p>If your code isn’t working, you can compare it to the <a href="https://codesandbox.io/s/py4xrzlym0">final working example here</a>.</p>
+
+<p>And one more thing: we could’ve written the className like this, all inline, without the extra variable:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">className</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #F5D66B">`room </span><span style="color: #C678DD">${</span><span style="color: #D1D5DE">isLit</span><span style="color: #F5D66B"> </span><span style="color: #93DDFD">?</span><span style="color: #F5D66B"> </span><span style="color: #F5D66B">"lit"</span><span style="color: #F5D66B"> </span><span style="color: #93DDFD">:</span><span style="color: #F5D66B"> </span><span style="color: #F5D66B">"dark"</span><span style="color: #C678DD">}</span><span style="color: #F5D66B">`</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span></code></pre>
+</div>
+<p>That would work the same (try it out!). I created the variable just to make it easier to read.</p>
+
+<h3 id="your-turn-2">Your Turn</h3>
+
+<p>Run through these quick exercises to solidify your understanding:</p>
+
+<ul>
+  <li>Add 2 more buttons: “ON” and “OFF”. Turn the light either ON or OFF depending on which button is clicked by wiring up the onClick handlers to set the state.</li>
+  <li>Add another piece of state: the room temperature. (Hint: you can <a href="https://daveceddia.com/usestate-hook-examples/">call useState more than once</a>!) Initialize it to 72 (or 22 for you Celsius types). Display the current temperature under the light status.</li>
+  <li>Add 2 more buttons: “+” and “-”. Then add onClick handlers that will increase or decrease the temperature by 1 degree when clicked,</li>
+</ul>
+
+<p>State is one of the trickier concepts to grok in React. Don’t worry if it doesn’t click immediately. I put together a <a href="https://daveceddia.com/visual-guide-to-state-in-react/">Visual Guide to State in React</a> if the concept still seems a bit fuzzy (and in that post, you’ll see how to represent state with <strong>class components</strong> instead of hooks – both valid ways to write components).</p>
+
+<h2 id="fetch-data-with-react">Fetch Data with React</h2>
+
+<p>So you’ve learned how to get something on the page with React. You’ve learned about <strong>props</strong> to pass data into components, and <strong>state</strong> to keep track of data within a component.</p>
+
+<p>But there’s one glaring question, and it’s often one of the first things React newcomers ask:</p>
+
+<p><strong>How do you get data from an API?</strong></p>
+
+<p>A fancy front end is no good without data! So next we’re going to tackle that head-on by fetching some real data from Reddit and displaying it with React.</p>
+
+<h3 id="how-to-fetch-data">How to Fetch Data</h3>
+
+<p>Before we dive in, there’s one thing you need to know: React itself doesn’t have any allegiance to any particular way of fetching data. In fact, as far as React is concerned, it doesn’t even know there’s a “server” in the picture at all. React is UI-only, baby.</p>
+
+<p>You’ve already learned the core parts that make React tick: it’s only <strong>props</strong> and <strong>state</strong>. There is no HTTP library built into React.</p>
+
+<p>So the way to make this work is to either use React’s <em>lifecycle methods</em> to fetch data at the appropriate time (in class components), or use the <strong>useEffect</strong> hook to kick off fetching data in a function component.</p>
+
+<p>To a React component, fetching something from a server is a side effect. It’s saying “After I’m done rendering, I’ll kick off a call to get some data.”</p>
+
+<p>Once that data comes back it needs to go into state, and then you can render it from there.</p>
+
+<p>You can complicate this process with services and data models and redux-thunk and sagas (er, “build abstractions”) as much as you desire, but ultimately it all boils down to components rendering props and state.</p>
+
+<h3 id="pick-an-http-library">Pick an HTTP Library</h3>
+
+<p>To fetch data from the server, we’ll need an HTTP library. There are a ton of them out there. Fetch and Axios are probably the most popular – and Fetch is actually part of the JS standard library these days. My favorite is Axios because of how simple it is, so that’s what we’ll use today. It’ll also let us see how to add a library and import it.</p>
+
+<p>If you already know and prefer another one, go ahead and use that instead.</p>
+
+<h3 id="create-the-project">Create the Project</h3>
+
+<p>Once again we’re going to start with a fresh project in CodeSandbox.</p>
+
+<ol>
+  <li>Go to <a href="https://codesandbox.io/s/new">https://codesandbox.io/s/new</a></li>
+  <li>Erase everything in index.js</li>
+  <li>Replace it with this:</li>
+</ol>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">React</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"react"</span><span style="color: #C9CDD7">;</span>
+<span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">ReactDOM</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"react-dom"</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Reddit</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> [</span><span style="color: #93DDFD">posts</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">setPosts</span><span style="color: #C9CDD7">] </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">React</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">useState</span><span style="color: #9CA5B7">(</span><span style="color: #D1D5DE">[]</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">      </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">h1</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">/r/reactjs</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">h1</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span>
+
+<span style="color: #93DDFD">ReactDOM</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">render</span><span style="color: #9CA5B7">(</span><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Reddit</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">/&gt;</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">document</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">getElementById</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">"root"</span><span style="color: #9CA5B7">))</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>We’re creating a component called <code>Reddit</code> to display posts from the /r/reactjs subreddit. It’s not fetching anything yet, though.</p>
+
+<p>By now the code probably looks familiar – the imports at the top and the component function at the bottom are the same as we’ve written the last few days. We’re using the <em>useState hook</em> to create a piece of state to hold an array of Reddit posts. We’re also initializing the state with an empty array, which will soon be replaced by live data.</p>
+
+<h3 id="render-the-list">Render the List</h3>
+
+<p>Next, let’s add some code to render the posts we have so far (which is an empty array). Change the component to look like this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Reddit</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> [</span><span style="color: #93DDFD">posts</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">setPosts</span><span style="color: #C9CDD7">] </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">React</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">useState</span><span style="color: #9CA5B7">(</span><span style="color: #D1D5DE">[]</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">      </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">h1</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">/r/reactjs</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">h1</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">      </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">ul</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">        </span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">posts</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">map</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">post</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">          </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">li</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">key</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">post</span><span style="color: #D1D5DE">.id</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">post</span><span style="color: #D1D5DE">.title</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">li</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">        </span><span style="color: #9CA5B7">))</span><span style="color: #FFE78F">}</span>
+<span style="color: #C9CDD7">      </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">ul</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span></code></pre>
+</div>
+<p>Let’s talk about what this is doing, because it might look a bit weird.</p>
+
+<p>Inside the <code>&lt;ul&gt;</code> a JS expression is wrapped in single braces (because, remember, that’s what you gotta do in JSX). <code>posts</code> is the empty array of posts we initialized above, and the <code>map</code> function loops over the posts and returns an <code>&lt;li&gt;</code> for each item in the array.</p>
+
+<p>This is how you render a list in React. (<a href="https://daveceddia.com/display-a-list-in-react/">more on that here</a>)</p>
+
+<p>Other libraries have a special template syntax, like Angular’s “ngFor” or Vue’s “v-for”, that essentially make a copy of the element for each item in the array.</p>
+
+<p>React, on the other hand, leans on JavaScript to do the heavy lifting. <code>posts.map</code> is <em>not a React thing</em>. That’s calling the <code>map</code> function that already exists on JS arrays, and it transforms (a.k.a, “maps”) each item in the array into a new thing. In this case, each array item is being turned into a JSX <code>&lt;li&gt;</code> element with a <code>key</code> prop and the post’s title, and the resulting array of <code>&lt;li&gt;</code>’s is what gets rendered inside the <code>&lt;ul&gt;</code>.</p>
+
+<p>To look at it another way, if you were to “unroll” the call to <code>.map</code> it would look like this (assuming <code>posts</code> was an array of these 3 reddit posts):</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">h1</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">/r/reactjs</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">h1</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">ul</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">      </span><span style="color: #FFE78F">{</span><span style="color: #D1D5DE">[</span>
+<span style="color: #C9CDD7">          </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">li</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">key</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #D570F3">1</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Post one</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">li</span><span style="color: #8AD2F0">&gt;</span><span style="color: #D1D5DE">,</span>
+<span style="color: #C9CDD7">          </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">li</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">key</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #D570F3">2</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Post two</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">li</span><span style="color: #8AD2F0">&gt;</span><span style="color: #D1D5DE">,</span>
+<span style="color: #C9CDD7">          </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">li</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">key</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #D570F3">3</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">Post three</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">li</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">      </span><span style="color: #D1D5DE">]</span><span style="color: #FFE78F">}</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">ul</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>The three posts become three <code>&lt;li&gt;</code>’s, wrapped in a new array. React knows how to render arrays of elements as long as they each have a unique <code>key</code> prop. Not that you’d ever write code like this, but it shows what the <code>map</code> is actually doing.</p>
+
+<h3 id="fetch-the-data">Fetch the Data</h3>
+
+<p>Let’s see it in action with real data. First we’ll import Axios, so add this new import at the top:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">axios</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">'axios'</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>Because we haven’t installed the library yet, CodeSandbox will throw up an error saying “Could not find dependency: ‘axios’” but it also provides a nice “Suggested solution” in the form of a button that says “Add axios as a dependency.” Click that button, and the library will be added to the project, and the app will refresh.</p>
+
+<p>Then, above the <code>return</code> but after the call to useState, type in this code:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #93DDFD">React</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">useEffect</span><span style="color: #9CA5B7">(()</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #93DDFD">axios</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">get</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">`https://www.reddit.com/r/reactjs.json`</span><span style="color: #9CA5B7">)</span>
+<span style="color: #C9CDD7">    </span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">then</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">res</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">      </span><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">newPosts</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">res</span><span style="color: #D1D5DE">.</span><span style="color: #93DDFD">data</span><span style="color: #D1D5DE">.</span><span style="color: #93DDFD">data</span><span style="color: #D1D5DE">.children</span>
+<span style="color: #C9CDD7">        </span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">map</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">obj</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">obj</span><span style="color: #D1D5DE">.data</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #C9CDD7">      </span><span style="color: #AFF19F">setPosts</span><span style="color: #9CA5B7">(</span><span style="color: #D1D5DE">newPosts</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">    </span><span style="color: #9CA5B7">})</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">[]</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>We’re using a new hook here, the <strong>useEffect hook</strong>. The way it works is, you pass it a function, and useEffect “queues up” that function to run after render is done.</p>
+
+<p>This particular effect calls <code>axios.get</code> to fetch the data from Reddit’s API, which returns a promise, and the <code>.then</code> handler will get called once the fetch is finished.</p>
+
+<p>Reddit’s API returns the posts in a pretty deeply-nested structure, so the <code>res.data.data.children.map...</code> is picking out the individual posts from the nested mess.</p>
+
+<p>Finally, it updates the <code>posts</code> state by calling setPosts.</p>
+
+<h3 id="useeffect-dependency-array">useEffect Dependency Array</h3>
+
+<p>One other thing you might’ve noticed: we’re passing an empty array <code>[]</code> as the second argument to useEffect. This is the list of variables that this effect <em>depends on</em>.</p>
+
+<p>If we don’t pass the array at all, then the effect will run on <em>every</em> render. As in… it’ll re-run the effect after we call setPosts. As in… it will re-fetch the posts every time it renders. Infinitely. Try opening up the browser devtools, look at the Network tab, and take off that empty array argument. See what happens :)</p>
+
+<p>The <code>useEffect</code> hook will only queue up the effect another time if something in this array changes, and, since the array is empty, this effect will only run ONCE after the component renders the first time.</p>
+
+<p>If you want to learn how to reverse-engineer API responses yourself, go to <a href="https://www.reddit.com/r/reactjs.json">https://www.reddit.com/r/reactjs.json</a> and copy the result into a pretty-printer like <a href="http://jsonprettyprint.com/">http://jsonprettyprint.com/</a>. Then look for something you recognize like a “title”, and trace back upwards to figure out the JSON path to it.</p>
+
+<p>In this case, I looked for the “title”, and then discovered posts were at <code>res.data.data.children[1..n].data</code>. I inched up on that solution by writing a parser that printed out <code>res.data</code>, and then <code>res.data.data</code>, and so on… one level at a time, building up the final chunk of code to parse the response.</p>
+
+<p>Once that change is made, you’ll see the app re-render with real data from /r/reactjs!</p>
+
+<p>If you had trouble getting it working, the full working example is here: <a href="https://codesandbox.io/s/84x08lwl09">https://codesandbox.io/s/84x08lwl09</a> (but hey! don’t just skip the work and click the working code example – the knowledge really sticks better when you write it out yourself).</p>
+
+<h3 id="your-turn-3">Your Turn</h3>
+
+<p>Take a few seconds and try this out. It’ll help the concepts stick! 💡</p>
+
+<ul>
+  <li>Extend the UI to include more data from the Reddit posts, like their score and the submitting user. Make the title into a link to the actual post.</li>
+</ul>
+
+<p>The fastest way to wrap your head around the “React way” of doing things (like rendering <a href="https://daveceddia.com/display-a-list-in-react/">lists</a>, or <a href="https://daveceddia.com/open-modal-in-react/">modal dialogs</a>, or styling, or whatever) is to practice.</p>
+
+<p>It’s the best method I know. But you need some exercises! Here’s a <a href="https://daveceddia.com/react-practice-projects/">list of practice projects</a> to get your mind going.</p>
+
+<h2 id="deploy-your-react-project">Deploy Your React Project</h2>
+
+<p>Up until now we’ve been using CodeSandbox to write our projects. It’s a great tool, easy to use… but sometimes writing apps in a browser feels a little… fake.</p>
+
+<p>It’s a bit more fun (and useful in the real world) if you can develop on your <em>own</em> machine. And even better if you can deploy that app to a server.</p>
+
+<p>So let’s cover both of those now.</p>
+
+<h3 id="local-development">Local Development</h3>
+
+<p>For local React development, you need to have a few tools installed:</p>
+
+<ul>
+  <li><a href="https://nodejs.org/">Node.js and NPM</a></li>
+  <li>A text editor (I like Vim and <a href="https://code.visualstudio.com/">VSCode</a>)</li>
+  <li>Create React App</li>
+</ul>
+
+<p>The last one is not strictly necessary to write React apps, but it’s an awesome tool that makes for a nice development experience (DX) and it hides away all the complexity of setting up Webpack and Babel. And: it’s not just for learning. It includes a real production build, which we’ll see how to use in a minute.</p>
+
+<p>Install Create React App by running this from a command line:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="shell"><code><span style="color: #C9CDD7">npm install -g create-react-app</span></code></pre>
+</div>
+<h3 id="create-the-project-1">Create the Project</h3>
+
+<p>And then create an app for our example by running this command:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="shell"><code><span style="color: #C9CDD7">create-react-app reddit-live</span></code></pre>
+</div>
+<p>When you run that, CRA will install a bunch of dependencies, and then give you further instructions. Follow what it says: switch into the new directory and start up the app.</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="shell"><code><span style="color: #AFF19F">cd</span><span style="color: #C9CDD7"> reddit-live</span>
+<span style="color: #C9CDD7">npm start</span></code></pre>
+</div>
+<p>Open up the project in your favorite editor.</p>
+
+<p>You’ll see that CRA generated a few files for us already. There’s the <code>src/index.js</code> file, which is similar to what we’ve had from CodeSandbox. And then there’s an App component in <code>src/App.js</code>, along with tests, and some styling.</p>
+
+<p>For this example we’re going to ignore everything other than index.js, though.</p>
+
+<p>Just as we’ve done before, open up index.js and delete everything inside. Replace it with this code, which should look familiar:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="jsx"><code><span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">React,</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">useState,</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">useEffect</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">}</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"react"</span><span style="color: #C9CDD7">;</span>
+<span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">ReactDOM</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"react-dom"</span><span style="color: #C9CDD7">;</span>
+<span style="color: #FF8383">import</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">axios</span><span style="color: #C9CDD7"> </span><span style="color: #FF8383">from</span><span style="color: #C9CDD7"> </span><span style="color: #F5D66B">"axios"</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #76DCE8">function</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">Reddit</span><span style="color: #9CA5B7">()</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> [</span><span style="color: #93DDFD">posts</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">setPosts</span><span style="color: #C9CDD7">] </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">useState</span><span style="color: #9CA5B7">(</span><span style="color: #D1D5DE">[]</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #93DDFD">React</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">useEffect</span><span style="color: #9CA5B7">(()</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">  </span><span style="color: #93DDFD">axios</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">get</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">`https://www.reddit.com/r/reactjs.json`</span><span style="color: #9CA5B7">)</span>
+<span style="color: #C9CDD7">    </span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">then</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">res</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">{</span>
+<span style="color: #C9CDD7">      </span><span style="color: #76DCE8">const</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">newPosts</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">=</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">res</span><span style="color: #D1D5DE">.</span><span style="color: #93DDFD">data</span><span style="color: #D1D5DE">.</span><span style="color: #93DDFD">data</span><span style="color: #D1D5DE">.children</span>
+<span style="color: #C9CDD7">        </span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">map</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">obj</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #93DDFD">obj</span><span style="color: #D1D5DE">.data</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #C9CDD7">      </span><span style="color: #AFF19F">setPosts</span><span style="color: #9CA5B7">(</span><span style="color: #D1D5DE">newPosts</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #C9CDD7">    </span><span style="color: #9CA5B7">})</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span><span style="color: #D1D5DE">,</span><span style="color: #C9CDD7"> </span><span style="color: #D1D5DE">[]</span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+
+<span style="color: #C9CDD7">  </span><span style="color: #FF8383">return</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">      </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">h1</span><span style="color: #8AD2F0">&gt;</span><span style="color: #C9CDD7">/r/reactjs</span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">h1</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">      </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">ul</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">        </span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">posts</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">map</span><span style="color: #9CA5B7">(</span><span style="color: #FDAC45">post</span><span style="color: #C9CDD7"> </span><span style="color: #76DCE8">=&gt;</span><span style="color: #C9CDD7"> </span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">          </span><span style="color: #8AD2F0">&lt;</span><span style="color: #FF8383">li</span><span style="color: #C9CDD7"> </span><span style="color: #AFF19F">key</span><span style="color: #93DDFD">=</span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">post</span><span style="color: #D1D5DE">.id</span><span style="color: #FFE78F">}</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">            </span><span style="color: #FFE78F">{</span><span style="color: #93DDFD">post</span><span style="color: #D1D5DE">.title</span><span style="color: #FFE78F">}</span>
+<span style="color: #C9CDD7">          </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">li</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">        </span><span style="color: #9CA5B7">))</span><span style="color: #FFE78F">}</span>
+<span style="color: #C9CDD7">      </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">ul</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">    </span><span style="color: #8AD2F0">&lt;/</span><span style="color: #FF8383">div</span><span style="color: #8AD2F0">&gt;</span>
+<span style="color: #C9CDD7">  </span><span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span>
+<span style="color: #9CA5B7">}</span>
+
+<span style="color: #93DDFD">ReactDOM</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">render</span><span style="color: #9CA5B7">(</span>
+<span style="color: #C9CDD7">  </span><span style="color: #8AD2F0">&lt;</span><span style="color: #93DDFD">Reddit</span><span style="color: #C9CDD7"> </span><span style="color: #8AD2F0">/&gt;</span><span style="color: #D1D5DE">,</span>
+<span style="color: #C9CDD7">  </span><span style="color: #93DDFD">document</span><span style="color: #D1D5DE">.</span><span style="color: #AFF19F">getElementById</span><span style="color: #9CA5B7">(</span><span style="color: #F5D66B">"root"</span><span style="color: #9CA5B7">)</span>
+<span style="color: #9CA5B7">)</span><span style="color: #C9CDD7">;</span></code></pre>
+</div>
+<p>The app will automatically recompile when you save, and you’ll see an error because we’re importing axios but we haven’t installed it.</p>
+
+<p>Back at the command line, install axios by running:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="shell"><code><span style="color: #C9CDD7">npm install axios --save</span></code></pre>
+</div>
+<p>CRA should automatically pick this up if you left it running (if you didn’t, start it back up now).</p>
+
+<p>The app should be working if you visit <a href="http://localhost:3000/">http://localhost:3000/</a>.</p>
+
+<h3 id="deploy-to-production">Deploy to Production</h3>
+
+<p>Now let’s push it up to a server! To do that, we’ll use <a href="https://surge.sh/">surge.sh</a>.</p>
+
+<p>I made a <a href="https://www.youtube.com/watch?v=W-Kc_zjfeH0">27-second video</a> of this process if you want to see it live. Better yet though, try it yourself!</p>
+
+<p>First we need to install the <code>surge</code> tool:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="shell"><code><span style="color: #C9CDD7">npm install -g surge</span></code></pre>
+</div>
+<p>Surge will deploy the directory we run it from, and our react-live project isn’t yet ready for deployment. So let’s build the project using CRA’s built-in production build. Run this:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="shell"><code><span style="color: #C9CDD7">npm run build</span></code></pre>
+</div>
+<p>This will output a production-ready app inside the “build” directory, so switch into that directory and run surge:</p>
+
+<div class="codeblock"><pre class="shiki" style="background-color: #31324e; color: #c9cdd7" data-language="shell"><code><span style="color: #AFF19F">cd</span><span style="color: #C9CDD7"> build</span>
+<span style="color: #C9CDD7">surge</span></code></pre>
+</div>
+<p>It’ll ask you to create an account, then prompt you for a directory (which defaults to the current one), and then a hostname (make it whatever you like), and then Surge will upload the files.</p>
+
+<p>Once it finishes, visit your running site! Mine is at <a href="http://crabby-cry.surge.sh/">http://crabby-cry.surge.sh</a> (the names it comes up with are great).</p>
+
+<p>That’s all there is to it!</p>
+
+<p>You can also pair Create React App projects with other popular hosting providers like Netlify, Heroku, and Now.</p>
+
+<p>I hope you had fun with this intro to React!</p>
+
+<p>If you want to get <em>yourself</em> production ready on React knowledge, check out my <a href="https://purereact.com/">Pure React workshop</a> – you’ll learn to “think in React”, master the React way of doing things, and get up to speed on ES6 features like classes, rest &amp; spread operators, and destructuring. One of my students, Mara, said:</p>
+
+<blockquote>
+  <p>“I came to know roughly what components I need to build just by looking at the design and imagining how data flows from the root component to the children components. I would recommend it to everyone that already had a course for beginners but they want to deepen their knowledge and really understand React by building basic UIs.</p>
+
+  <p>Basically everyone that wants to get paid by building apps with React.”</p>
+</blockquote>
+
+
+        
+          
+        
+        
+          <div class="workshop-cta">
+  
+  <div class="think-in-react">
+    <img src="./A Complete React Tutorial for 2020_files/pure-react-plant-sm.png" srcset="https://daveceddia.com/images/pure-react-plant-sm@2x.png 2x" alt="Pure React plant">
+    <div class="think-in-react--cta">
+      <h3>Learn to think in React</h3>
+      <ul>
+        <li>90+ screencast lessons</li>
+        <li>Full transcripts and closed captions</li>
+        <li>All the code from the lessons</li>
+        <li>Developer interviews</li>
+      </ul>
+      <a href="https://purereact.com/">
+        Start learning Pure React now
+      </a>
+    </div>
+    <div class="notch"></div>
+  </div>
+  <div class="testimonial">
+    <p>Dave Ceddia’s Pure React is a work of enormous clarity and depth. Hats off. I'm a React trainer in London and would thoroughly recommend this to all front end devs wanting to upskill or consolidate.</p>
+    <div class="testimonial--author">
+      <img src="./A Complete React Tutorial for 2020_files/alan-lavender.jpg" alt="Alan Lavender">
+      <div>
+        <div class="testimonial--name">Alan Lavender</div>
+        <div class="testimonial--handle">@lavenderlens</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+          <div id="commento" class="commento-root commento-root-font"><div id="commento-login-box-container"></div><div id="commento-error" class="commento-error-box" style="display: none;"></div><div id="commento-mod-tools" class="commento-mod-tools" style="display: none"><button id="commento-mod-tools-lock-button">Lock Thread</button></div><div id="commento-main-area" class="commento-main-area" style=""><div id="commento-login" class="commento-login"><div class="commento-login-text">Login</div></div><div id="commento-textarea-super-container-root" class="commento-button-margin"><div id="commento-textarea-container-root" class="commento-textarea-container"><textarea id="commento-textarea-root" placeholder="Add a comment"></textarea></div><button id="commento-submit-button-root" class="commento-button commento-submit-button">Add Comment</button><a id="commento-markdown-button-root" class="commento-markdown-button"><b>M ↓</b> &nbsp; Markdown</a></div><div class="commento-sort-policy-buttons-container"><div class="commento-sort-policy-buttons"><a id="commento-sort-policy-score-desc" class="commento-sort-policy-button commento-sort-policy-button-selected">Upvotes</a><a id="commento-sort-policy-creationdate-desc" class="commento-sort-policy-button">Newest</a><a id="commento-sort-policy-creationdate-asc" class="commento-sort-policy-button">Oldest</a></div></div><div id="commento-pre-comments-area"></div><div id="commento-comments-area" class="commento-comments"><div><div id="commento-comment-card-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" class="commento-card" style="border-left: 2px solid rgb(62, 150, 81);"><div class="commento-header"><div id="commento-comment-options-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo" class="commento-avatar-img"><a id="commento-comment-name-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" class="commento-name" href="https://github.com/syzygy333" style="max-width: 96px;">Brian Hogue</a><div id="commento-comment-subtitle-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" class="commento-subtitle"><div id="commento-comment-score-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" class="commento-score">2 points</div><div id="commento-comment-timeago-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" title="Wed Jul 22 2020 21:56:15 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">6 months ago</div></div></div><div id="commento-comment-contents-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164"><div id="commento-comment-body-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" class="commento-body"><div id="commento-comment-text-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164"><p>In your first code block for the Hello World! setup, it would not work until I added <code>export default</code> to the line starting with <code>function Hi() {</code></p>
+</div></div><div id="commento-comment-children-ac51dec4c537962244b1d74be0c89a8bf3f0e876e4f9fada66f23c3246acf164" class="commento-body"><div id="commento-comment-card-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" class="commento-card" style="border-left: 2px solid rgb(218, 124, 48);"><div class="commento-header"><div id="commento-comment-options-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><div class="commento-avatar" style="background: rgb(218, 124, 48);">D</div><div id="commento-comment-name-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" class="commento-moderator commento-name" style="max-width: 172px;">Dave Ceddia</div><div id="commento-comment-subtitle-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" class="commento-subtitle"><div id="commento-comment-score-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" class="commento-score">0 points</div><div id="commento-comment-timeago-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" title="Mon Jan 11 2021 21:48:04 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">14 days ago</div></div></div><div id="commento-comment-contents-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4"><div id="commento-comment-body-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4" class="commento-body"><div id="commento-comment-text-50956f549daeb7971ba4b1694522e594c59007052d2b8104278ae6fc9d4f26b4"><p>Make sure you're writing the code into index.js, not App.js. CodeSandbox opens up at App.js initially though, so it's easy to end up putting the code in the wrong file.</p>
+</div></div></div></div></div></div></div><div id="commento-comment-card-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" class="commento-card" style="border-left: 2px solid rgb(204, 37, 41);"><div class="commento-header"><div id="commento-comment-options-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(1)" class="commento-avatar-img"><a id="commento-comment-name-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" class="commento-name" href="https://github.com/haukened" style="max-width: 126px;">David Haukeness</a><div id="commento-comment-subtitle-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" class="commento-subtitle"><div id="commento-comment-score-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" class="commento-score">0 points</div><div id="commento-comment-timeago-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" title="Wed Jul 29 2020 00:19:56 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">6 months ago</div></div></div><div id="commento-comment-contents-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0"><div id="commento-comment-body-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" class="commento-body"><div id="commento-comment-text-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0"><p>There's an error in the code playground on grabbing stuff from reddit, thought i was crazy and opened your code playground, but the same error is there too:</p>
+
+<p>TypeError
+Cannot read property 'children' of undefined
+eval
+/src/index.js:9:37
+   6 | const [posts, setPosts] = React.useState([]);
+   7 | React.useEffect(() =&gt; {
+   8 |   axios.get(<code>https://www.reddit.com/r/reactjs.json</code>).then(res =&gt; {
+&gt;  9 |     const newPosts = res.data.data.children.map(obj =&gt; obj.data);
+     |                                   ^
+  10 |     setPosts(newPosts);
+  11 |   });
+  12 | }, []);</p>
+</div></div><div id="commento-comment-children-929f9f3ec5035314b48525710738ba9d80422ce026cef283680dc8cf4f2118b0" class="commento-body"><div id="commento-comment-card-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" class="commento-card" style="border-left: 2px solid rgb(204, 37, 41);"><div class="commento-header"><div id="commento-comment-options-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(1)" class="commento-avatar-img"><a id="commento-comment-name-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" class="commento-name" href="https://github.com/haukened" style="max-width: 126px;">David Haukeness</a><div id="commento-comment-subtitle-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" class="commento-subtitle"><div id="commento-comment-score-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" class="commento-score">0 points</div><div id="commento-comment-timeago-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" title="Wed Jul 29 2020 01:15:42 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">6 months ago</div></div></div><div id="commento-comment-contents-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68"><div id="commento-comment-body-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68" class="commento-body"><div id="commento-comment-text-d4ccec02daa4477b5f05effcb042451958f84c28172413fc0de3a6be16460d68"><p>For anyone else wondering, Reddit's responses are kinda screwy.  Adding a <code>?</code> to the end of the URL seems to solve this issue.</p>
+</div></div></div></div></div></div></div><div id="commento-comment-card-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" class="commento-card" style="border-left: 2px solid rgb(218, 124, 48);"><div class="commento-header"><div id="commento-comment-options-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(2)" class="commento-avatar-img"><a id="commento-comment-name-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" class="commento-name" href="https://github.com/Ekryd" style="max-width: 93px;">Björn Ekryd</a><div id="commento-comment-subtitle-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" class="commento-subtitle"><div id="commento-comment-score-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" class="commento-score">0 points</div><div id="commento-comment-timeago-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" title="Wed Jul 29 2020 16:14:40 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">6 months ago</div></div></div><div id="commento-comment-contents-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453"><div id="commento-comment-body-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453" class="commento-body"><div id="commento-comment-text-6c95aade22cf9472a68ed716f1666b2fe815a3a5582d21444c577de4f430d453"><p>Thanks for a great introduction to React! I used Typescript for your tutorial, so I had to add a few type declarations and type dependencies to the code. The sections "How xxx works" and "Your turn" really helped me to get into the details.
+It would be nice to see Jest tests for the components (especially the Reddit component). Maybe that can be documented in a separate repository?</p>
+</div></div></div></div><div id="commento-comment-card-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" class="commento-card" style="border-left: 2px solid rgb(62, 150, 81);"><div class="commento-header"><div id="commento-comment-options-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(3)" class="commento-avatar-img"><a id="commento-comment-name-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" class="commento-name" href="https://github.com/chasingwind77" style="max-width: 113px;">chasingwind77</a><div id="commento-comment-subtitle-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" class="commento-subtitle"><div id="commento-comment-score-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" class="commento-score">0 points</div><div id="commento-comment-timeago-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" title="Sun Aug 30 2020 02:04:00 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">5 months ago</div></div></div><div id="commento-comment-contents-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89"><div id="commento-comment-body-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" class="commento-body"><div id="commento-comment-text-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89"><p>Great introduction! Very easy to follow while provide sufficient information for a beginner such as myself. Thanks a lot!</p>
+
+<p>I followed the Reddit example (useEffect), while it works on my local box, after deploying to surge.sh the posts were not shown (verified the API call did return with correct response). Then I checked the source code of <a href="http://crabby-cry.surge.sh/" rel="nofollow">http://crabby-cry.surge.sh</a>, which works, and found the implementation has been changed to extend from React.Component. Does that mean the hook way won't work any more?</p>
+</div></div><div id="commento-comment-children-75ac27f1984c05543d40fa8463d609145ba0c258c6b39d069c4f38a6d253be89" class="commento-body"><div id="commento-comment-card-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" class="commento-card" style="border-left: 2px solid rgb(218, 124, 48);"><div class="commento-header"><div id="commento-comment-options-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><div class="commento-avatar" style="background: rgb(218, 124, 48);">D</div><div id="commento-comment-name-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" class="commento-moderator commento-name" style="max-width: 172px;">Dave Ceddia</div><div id="commento-comment-subtitle-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" class="commento-subtitle"><div id="commento-comment-score-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" class="commento-score">0 points</div><div id="commento-comment-timeago-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" title="Tue Sep 01 2020 20:47:49 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">5 months ago</div></div></div><div id="commento-comment-contents-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba"><div id="commento-comment-body-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba" class="commento-body"><div id="commento-comment-text-b84d191626846abc32b31325682b3a8ef9c70e376ea8db710baae29bf56ab2ba"><p>Hooks should work fine, and if they work locally but not after deploying the app, then it's probably some kind of CORS / HTTP problem. Check the console for errors.</p>
+
+<p>You can also try building it locally (<code>npm run build</code>) and starting a server with <code>npx serve build</code>, just to verify that it's not a problem with the build itself.</p>
+</div></div></div></div></div></div></div><div id="commento-comment-card-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" class="commento-card" style="border-left: 2px solid rgb(83, 81, 84);"><div class="commento-header"><div id="commento-comment-options-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(4)" class="commento-avatar-img"><a id="commento-comment-name-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" class="commento-name" href="https://github.com/peterjsage1969" style="max-width: 115px;">peterjsage1969</a><div id="commento-comment-subtitle-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" class="commento-subtitle"><div id="commento-comment-score-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" class="commento-score">0 points</div><div id="commento-comment-timeago-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" title="Mon Sep 28 2020 18:50:27 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">4 months ago</div></div></div><div id="commento-comment-contents-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8"><div id="commento-comment-body-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8" class="commento-body"><div id="commento-comment-text-ad5c2b02f3f4b0dfcc05b66c08e18521aee3cdb4bd5a47819f5742b25acae7d8"><p>Nice one.  Learnt lots!</p>
+</div></div></div></div><div id="commento-comment-card-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" class="commento-card" style="border-left: 2px solid rgb(107, 76, 154);"><div class="commento-header"><div id="commento-comment-options-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(5)" class="commento-avatar-img"><a id="commento-comment-name-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" class="commento-name" href="https://github.com/simon-a-walton" style="max-width: 106px;">Simon Walton</a><div id="commento-comment-subtitle-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" class="commento-subtitle"><div id="commento-comment-score-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" class="commento-score">0 points</div><div id="commento-comment-timeago-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" title="Mon Nov 23 2020 21:30:19 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">2 months ago</div></div></div><div id="commento-comment-contents-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6"><div id="commento-comment-body-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" class="commento-body"><div id="commento-comment-text-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6"><p>This is the best introductory tutorial I've found. The way you've written makes React seem fun rather than intimidating. Thank you!</p>
+</div></div><div id="commento-comment-children-17a5bf1ee8d391753b1a67f6b21eec1d8b0f323e7565f51e5e125838be3868d6" class="commento-body"><div id="commento-comment-card-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" class="commento-card" style="border-left: 2px solid rgb(218, 124, 48);"><div class="commento-header"><div id="commento-comment-options-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><div class="commento-avatar" style="background: rgb(218, 124, 48);">D</div><div id="commento-comment-name-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" class="commento-moderator commento-name" style="max-width: 172px;">Dave Ceddia</div><div id="commento-comment-subtitle-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" class="commento-subtitle"><div id="commento-comment-score-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" class="commento-score">0 points</div><div id="commento-comment-timeago-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" title="Mon Nov 23 2020 21:32:00 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">2 months ago</div></div></div><div id="commento-comment-contents-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089"><div id="commento-comment-body-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089" class="commento-body"><div id="commento-comment-text-512eb26928b5f4a66eca1ce865ede0e2ad86828572e8da7526febd7527151089"><p>That's awesome to hear, thanks Simon 😊</p>
+</div></div></div></div></div></div></div><div id="commento-comment-card-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" class="commento-card" style="border-left: 2px solid rgb(204, 37, 41);"><div class="commento-header"><div id="commento-comment-options-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(6)" class="commento-avatar-img"><a id="commento-comment-name-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" class="commento-name" href="https://github.com/michalsi" style="max-width: 152px;">Michal Sierzputowski</a><div id="commento-comment-subtitle-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" class="commento-subtitle"><div id="commento-comment-score-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" class="commento-score">0 points</div><div id="commento-comment-timeago-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" title="Sun Dec 06 2020 16:00:04 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">50 days ago</div></div></div><div id="commento-comment-contents-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6"><div id="commento-comment-body-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6" class="commento-body"><div id="commento-comment-text-b0d80ddd9d054ba14ebb3077fde756bf1d6bf377536c5793ada8e1044c9422a6"><p>I'd echo others comments about how your way of teaching is fun and at the same time yields concrete results. Thanks so much!</p>
+</div></div></div></div><div id="commento-comment-card-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" class="commento-card" style="border-left: 2px solid rgb(204, 37, 41);"><div class="commento-header"><div id="commento-comment-options-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(7)" class="commento-avatar-img"><a id="commento-comment-name-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" class="commento-name" href="https://github.com/ccosse" style="max-width: 71px;">C. Cossé</a><div id="commento-comment-subtitle-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" class="commento-subtitle"><div id="commento-comment-score-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" class="commento-score">0 points</div><div id="commento-comment-timeago-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" title="Mon Jan 11 2021 21:30:11 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">14 days ago</div></div></div><div id="commento-comment-contents-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464"><div id="commento-comment-body-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" class="commento-body"><div id="commento-comment-text-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464"><p>Hi, the initial example generates an error for me:</p>
+
+<p>Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.</p>
+
+<p>EDIT: Brian Hogue's comment made it work now ... phew!<br>
+EDIT2: I'm only 1/3 through, but this is so clear and well-written that I'm really excited to tackle React again.  IOW: Thanks!!</p>
+</div></div><div id="commento-comment-children-12050957b98e5169a4bec2978cd1947c02d315e11f0687afb340450870147464" class="commento-body"><div id="commento-comment-card-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" class="commento-card" style="border-left: 2px solid rgb(218, 124, 48);"><div class="commento-header"><div id="commento-comment-options-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><div class="commento-avatar" style="background: rgb(218, 124, 48);">D</div><div id="commento-comment-name-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" class="commento-moderator commento-name" style="max-width: 172px;">Dave Ceddia</div><div id="commento-comment-subtitle-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" class="commento-subtitle"><div id="commento-comment-score-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" class="commento-score">0 points</div><div id="commento-comment-timeago-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" title="Mon Jan 11 2021 21:46:12 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">14 days ago</div></div></div><div id="commento-comment-contents-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173"><div id="commento-comment-body-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" class="commento-body"><div id="commento-comment-text-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173"><p>Make sure you're writing the code into index.js, not App.js. CodeSandbox opens up with App.js initially, but we're not using that file here.</p>
+</div></div><div id="commento-comment-children-6727083920abecc8194cd69d7322f9e16783a683b6f1555f5733c0afeada1173" class="commento-body"><div id="commento-comment-card-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" class="commento-card" style="border-left: 2px solid rgb(204, 37, 41);"><div class="commento-header"><div id="commento-comment-options-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(7)" class="commento-avatar-img"><a id="commento-comment-name-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" class="commento-name" href="https://github.com/ccosse" style="max-width: 71px;">C. Cossé</a><div id="commento-comment-subtitle-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" class="commento-subtitle"><div id="commento-comment-score-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" class="commento-score">0 points</div><div id="commento-comment-timeago-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" title="Tue Jan 19 2021 12:40:40 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">6 days ago</div></div></div><div id="commento-comment-contents-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09"><div id="commento-comment-body-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09" class="commento-body"><div id="commento-comment-text-7b4fe82d74e0ee25a98a3c678dc15d9ff2dfd569f5d0e599023bfa1c55fd4f09"><p>Thanks -- I think that was the problem</p>
+</div></div></div></div></div></div></div></div></div></div><div id="commento-comment-card-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" class="commento-card" style="border-left: 2px solid rgb(107, 76, 154);"><div class="commento-header"><div id="commento-comment-options-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(8)" class="commento-avatar-img"><a id="commento-comment-name-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" class="commento-name" href="https://github.com/malawi89" style="max-width: 101px;">David Morley</a><div id="commento-comment-subtitle-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" class="commento-subtitle"><div id="commento-comment-score-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" class="commento-score">0 points</div><div id="commento-comment-timeago-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" title="Wed Jan 13 2021 14:40:49 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">12 days ago</div></div></div><div id="commento-comment-contents-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085"><div id="commento-comment-body-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085" class="commento-body"><div id="commento-comment-text-7974637e072122e399e72b5df0b9e44e80d7478dede7d3f63b1a38be431a7085"><p>Massively enjoyed this - got to the end and was kind of disappointed that I had to stop! Similar to others this really helped me get over the fear of learning React. Looking forward to carrying it on.</p>
+</div></div></div></div><div id="commento-comment-card-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" class="commento-card" style="border-left: 2px solid rgb(83, 81, 84);"><div class="commento-header"><div id="commento-comment-options-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><img src="./A Complete React Tutorial for 2020_files/photo(9)" class="commento-avatar-img"><a id="commento-comment-name-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" class="commento-name" href="https://github.com/asad-ullah-khan1" style="max-width: 129px;">asad-ullah-khan1</a><div id="commento-comment-subtitle-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" class="commento-subtitle"><div id="commento-comment-score-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" class="commento-score">0 points</div><div id="commento-comment-timeago-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" title="Wed Jan 06 2021 16:35:36 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">19 days ago</div></div></div><div id="commento-comment-contents-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09"><div id="commento-comment-body-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" class="commento-body"><div id="commento-comment-text-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09"><p>The awesome post read Complete in a day. :) and also written code.</p>
+</div></div><div id="commento-comment-children-7e1dccc716d1f6f029e5612865007c84e14689b70080d2235cb68032d971ad09" class="commento-body"><div id="commento-comment-card-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" class="commento-card" style="border-left: 2px solid rgb(218, 124, 48);"><div class="commento-header"><div id="commento-comment-options-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" class="commento-options" style="width: 160px;"><button id="commento-comment-collapse-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" title="Collapse children" class="commento-option-button commento-option-collapse" style="right: 0px;"></button><button id="commento-comment-downvote-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" title="Downvote" class="commento-option-button commento-option-downvote" style="right: 32px;"></button><button id="commento-comment-upvote-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" title="Upvote" class="commento-option-button commento-option-upvote" style="right: 64px;"></button><button id="commento-comment-reply-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" title="Reply" class="commento-option-button commento-option-reply" style="right: 96px;"></button></div><div class="commento-avatar" style="background: rgb(218, 124, 48);">D</div><div id="commento-comment-name-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" class="commento-moderator commento-name" style="max-width: 172px;">Dave Ceddia</div><div id="commento-comment-subtitle-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" class="commento-subtitle"><div id="commento-comment-score-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" class="commento-score">0 points</div><div id="commento-comment-timeago-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" title="Wed Jan 06 2021 19:55:16 GMT+0500 (Pakistan Standard Time)" class="commento-timeago">19 days ago</div></div></div><div id="commento-comment-contents-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c"><div id="commento-comment-body-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c" class="commento-body"><div id="commento-comment-text-720557437736d65cb741348bd089e9dd11c3697a5f0b6a54d22c959860d0855c"><p>Thanks, and well done!</p>
+</div></div></div></div></div></div></div></div></div></div><div id="commento-footer" class="commento-footer"><div class="commento-logo-container"><a class="commento-logo" href="https://commento.io/" target="_blank"><span class="commento-logo-text">Commento</span></a></div></div></div>
+        
+      </div><!-- /.entry-content -->
+      
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sticky-sidebar" hidden="hidden">
+  <button class="sidebar-close-btn" aria-label="dismiss" onclick="(function (e){document.querySelector(&#39;.sticky-sidebar&#39;).setAttribute(&#39;hidden&#39;, &#39;hidden&#39;)})()">
+    <svg id="icon-close" viewBox="0 0 16 16" width="24" height="24">
+      <path d="M8,15 C4.13400675,15 1,11.8659932 1,8 C1,4.13400675 4.13400675,1 8,1 C11.8659932,1 15,4.13400675 15,8 C15,11.8659932 11.8659932,15 8,15 Z M10.44352,10.7233105 L10.4528296,10.7326201 L10.7326201,10.4528296 C11.0310632,10.1543865 11.0314986,9.66985171 10.7335912,9.37194437 L9.36507937,8.0034325 L10.7360526,6.63245928 C11.0344957,6.33401613 11.0349311,5.84948135 10.7370237,5.55157401 L10.448426,5.26297627 C10.1505186,4.96506892 9.66598387,4.96550426 9.36754072,5.26394741 L8.00589385,6.62559428 L6.63738198,5.25708241 C6.33947464,4.95917507 5.85493986,4.95961041 5.55649671,5.25805356 L5.26737991,5.54717036 C4.96893676,5.84561351 4.96850142,6.33014829 5.26640876,6.62805563 L6.62561103,7.9872579 L5.25463781,9.35823112 C4.95619466,9.65667427 4.95575932,10.141209 5.25366666,10.4391164 L5.5422644,10.7277141 C5.84017175,11.0256215 6.32470652,11.0251861 6.62314967,10.726743 L7.99412289,9.35576976 L9.36263476,10.7242816 C9.66054211,11.022189 10.1450769,11.0217536 10.44352,10.7233105 Z"></path>
+    </svg>
+  </button>
+  <div class="dc_form_container ">
+    <div class="dc_success_msg" style="display:none;">
+      Success! Now check your email.
+    </div>
+
+    <!--  Form starts here  -->
+    
+    <form class="dc_signup_form" action="https://daveceddia.com/s/signup" method="POST">
+    
+      <h4 class="dc_title">
+Want to get better at React?
+</h4>
+      <div class="dc_description">
+        
+<div>I send an article every Wednesday to help you level up as a front-end React developer.</div>
+
+      </div>
+
+      <div class="dc_error_msg" style="display:none">
+        There was an error. Please try again.
+      </div>
+
+      <div class="dc_field">
+        <label class="dc_label" for="dc_email" style="display: none">Email Address</label>
+        <input type="email" name="email" placeholder="Your email" required="">
+      </div>
+      <input type="hidden" name="page_id" value="react-tutorial">
+      <input type="hidden" name="form_id" value="sidebar-newsletter">
+      <input type="hidden" name="form_version" value="1">
+      <input type="hidden" name="tag" value="531525,">
+      <div class="dc_form_under_input"></div>
+      <button class="dc_subscribe_button" type="submit">
+        Subscribe
+      </button>
+      <div class="dc_guarantee">
+         
+      </div>
+    </form>
+
+    
+<form class="dc_gdpr_form" action="https://daveceddia.com/s/signup/gdpr" method="POST" style="display:none;">
+
+  <p>Before we go on, I have to ask...</p>
+  <div class="dc_form_field">
+    <label>
+      <input type="checkbox" name="confirm_answer" value="true">
+      <span>consent</span>
+    </label>
+  </div>
+  <br>
+
+  <div class="dc_error_msg" style="display:none">
+    There was an error submitting your subscription. Please try again.
+  </div>
+
+  <input type="hidden" name="email" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="firstName" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="gdpr" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="captcha" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="sign" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="confirm" value="FILL_IN_WITH_JS">
+  <input type="hidden" name="tag" value="531525">
+  <input type="hidden" name="page_id" value="react-tutorial">
+  <input type="hidden" name="form_id" value="sidebar-newsletter">
+  <input type="hidden" name="form_version" value="1">
+  <button type="submit" class="dc_subscribe_button">
+    Finish
+  </button>
+</form>
+
+  </div>
+
+  <style type="text/css">
+    .sidebar-close-btn {
+      fill: #bbb;
+      background: none;
+      border: none;
+      position: absolute;
+      top: -8px;
+      right: -12px;
+    }
+    .sidebar-close-btn:focus {
+      outline: 0;
+      fill: #555;
+    }
+    .sidebar-close-btn:hover,
+    .sidebar-close-btn:active {
+      fill: #222;
+    }
+    .sticky-sidebar .dc_form_under_input {
+      text-align: center;
+      font-size: 12px;
+      color: #70757b;
+    }
+    .sticky-sidebar .dc_form_container {
+      border: 1px solid #eff7ee;
+      border-radius: 5px;
+      padding: 1em;
+      background: #fff;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 5px 30px #b8bac144, 0 2px 5px #cccccc44;
+      font-size: 15px;
+      line-height: 1.4em;
+    }
+    .sticky-sidebar .dc_form_container .dc_title {
+      margin-top: 0;
+      text-align: left;
+      font-weight: 600;
+      font-size: 16px;
+      font-family: "Open Sans";
+      letter-spacing: 0;
+    }
+    .sticky-sidebar .dc_form_container .dc_description {
+      margin-bottom: 10px;
+    }
+    .sticky-sidebar .dc_signup_form, .dc_gdpr_form {
+      margin-bottom: 0;
+      position: relative;
+    }
+    .sticky-sidebar .dc_signup_form input, .dc_gdpr_form input {
+      width: 100%;
+      padding: 8px 6px;
+      margin-bottom: 0;
+    }
+    .sticky-sidebar .dc_gdpr_form input[type="checkbox"] {
+      width: initial;
+      margin: 0;
+      margin-right: 5px;
+    }
+    .sticky-sidebar .dc_subscribe_button {
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+      max-width: 250px;
+      font-size: 15px;
+      background: #9af185;
+      color: #07564c;
+      border-color: #30ab12;
+      height: auto;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      border: none;
+      border-radius: 3px;
+      padding: 6px;
+      font-weight: 700;
+    }
+    .sticky-sidebar .dc_subscribe_button[disabled] {
+      opacity: 0.5;
+    }
+    .sticky-sidebar .dc_subscribe_button[disabled]:hover {
+      opacity: 0.5;
+      color: #583900;
+    }
+    .sticky-sidebar .dc_guarantee {
+      font-size: 12px;
+      text-align: center;
+      opacity: 0.7;
+    }
+    .sticky-sidebar .dc_success_msg {
+      padding: 10px;
+      background: #fff;
+      border: 1px solid #8dc74a;
+      border-radius: 2px;
+      background: #F1F8E9;
+      text-align: center;
+    }
+    .sticky-sidebar .dc_error_msg {
+      background: #FFEBEE;
+      padding: 10px;
+      margin-bottom: 5px;
+      border: 2px solid #C62828;
+    }
+  </style>
+</div>
+
+
+      
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper muted-centered">
+  <footer role="contentinfo">
+    
+
+<span>© 2021 Dave Ceddia.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  window.BASE_URL = 'https://daveceddia.com';
+</script>
+
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100838734ns.gif" /></p></noscript>
+
+<script type="text/javascript">
+  var loadClicky;
+  var loadGA;
+  var loadCommento;
+
+
+  loadGA = function() {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-82635227-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid');
+    ga('send', 'pageview');
+  }
+
+
+
+  var clicky_site_ids = clicky_site_ids || [];
+  clicky_site_ids.push(100838734);
+  loadClicky = function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//static.getclicky.com/js';
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  };
+
+
+
+  loadCommento = function() {
+    var element = document.createElement("script");
+    element.src = "https://commento.daveceddia.com/js/commento.js";
+    document.body.appendChild(element);
+  }
+
+
+  function loadJS() {
+    var element = document.createElement("script");
+    element.src = "https://daveceddia.com/assets/js/scripts.min.js";
+    document.body.appendChild(element);
+
+    if(loadClicky) loadClicky();
+    if(loadGA) loadGA();
+    if(loadCommento) loadCommento();
+  }
+
+  if (window.addEventListener) {
+    window.addEventListener("load", loadJS, false);
+  } else if (window.attachEvent) {
+    window.attachEvent("onload", loadJS);
+  } else {
+    window.onload = loadJS;
+  }
+</script>
+
+
+
+
+
+<script src="./A Complete React Tutorial for 2020_files/scripts.min.js.download"></script><script src="./A Complete React Tutorial for 2020_files/commento.js.download"></script><script type="text/javascript" async="" src="./A Complete React Tutorial for 2020_files/in.php"></script></body></html>
